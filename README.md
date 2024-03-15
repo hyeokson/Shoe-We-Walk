@@ -1,4 +1,4 @@
-<p align="middle" >
+![image](https://github.com/hyeokson/Shoe-We-Walk/assets/127181634/6d89eddc-f3bb-495d-9baf-1cc1e647abc8)<p align="middle" >
   <img width="200px;" src="https://github.com/hyeokson/Shoe-We-Walk/assets/127181634/4c30b48e-30af-466a-b159-f118c89930b8"/>
 </p>
 
@@ -79,24 +79,30 @@ GPS를 통해 유저의 운동경로를 지도상에 표시하여 운동 경로�
 
 - **메인 화면**
   
-  메인 화면인 탐색 화면에서 검색어를 통해 원하는 장소나 키워드에 해당하는 게시글을 확인 할 수 있습니다.
+  메인 화면인 탐색 화면에서 유저의 신발 및 신발 장식, 운동 시작 버튼을 확인할 수 있습니다.
   
-  <img width="600px;" src="https://github.com/Vecto-Konkuk/spring-backend/assets/127181634/26156908-e82a-4a84-82e4-bc3bcdc5eea8"/>
+  <img width="600px;" src="https://github.com/hyeokson/Shoe-We-Walk/assets/127181634/f52de668-4696-401c-b107-1ea212edc7b1"/>
 
-- **게시글 상세 화면**
 
-  게시글을 선택하면 게시글 상세 페이지로 이동할 수 있습니다.  
-  데이트 코스와 이미지 및 상세정보를 확인할 수 있고, 좋아요와 댓글을 통해 소통할 수 있습니다.
+- **로그인 및 회원가입 화면**
+
+  카카오 로그인 버튼을 누르면 카카오 계정과 연동하여 로그인이 완료됩니다.
+  회원가입을 하지 않았다면 회원가입 화면으로 이동하고 기본 정보를 입력하여 회원가입을 진행합니다.
   
-  <img width="600px;" src="https://github.com/Vecto-Konkuk/spring-backend/assets/127181634/9e8aedcd-735d-416f-a873-a54789e6b8e1"/>
-  <img width="600px;" src="https://github.com/Vecto-Konkuk/spring-backend/assets/127181634/15e8f2c8-08ac-43e9-8739-df305777fde5"/>
+  <img width="600px;" src="https://github.com/hyeokson/Shoe-We-Walk/assets/127181634/53799c56-10f7-4307-a269-d9ba5b18be51"/>
+  <img width="600px;" src="https://github.com/hyeokson/Shoe-We-Walk/assets/127181634/3783abea-b62a-4c4f-b79e-f061ff4cf800"/>
 
-- **게시글 작성 화면**
 
-  바텀 네비게이션의 글쓰기 아이콘 선택을 통해 게시글 작성 화면으로 이동할 수 있습니다.  
-  데이트 경로, 사진, 제목, 글을 작성하여 등록하면 게시글 작성이 완료됩니다.  
+- **신발 꾸미기 화면**
+
+  사용 가능한 신발 장식과 이미 신발에 부착된 신발 장식 정보를 확인할 수 있습니다.
+  신발 장식을 터치하면 원하는 위치에 장식을 부착하거나 해체할 수 있습니다. 
   
-  <img width="600px;" src="https://github.com/Vecto-Konkuk/spring-backend/assets/127181634/ffbcf421-3092-4bc5-ae18-35dd96405ffc"/>
+  <img width="600px;" src="https://github.com/hyeokson/Shoe-We-Walk/assets/127181634/5060798b-0c87-4400-9fd6-aa66c9f323a2"/>  
+  <img width="600px;" src="https://github.com/hyeokson/Shoe-We-Walk/assets/127181634/fb875f80-cb51-4520-8f43-7f5f5f961dfb"/>  
+  <img width="600px;" src="https://github.com/hyeokson/Shoe-We-Walk/assets/127181634/9b97468e-3454-4907-a027-d12d7d951435"/>  
+ 
+
 
 - **권한 설정 화면**
 
@@ -111,63 +117,42 @@ GPS를 통해 유저의 운동경로를 지도상에 표시하여 운동 경로�
 
   <img width="600px;" src="https://github.com/Vecto-Konkuk/spring-backend/assets/127181634/651d3647-e1b3-4939-a4e4-b1f0dcc77979"/>
 
-- **경로 수정 화면**
+- **상점 화면**
 
-  바텀 네비게이션의 경로 수정 아이콘 선택을 통해 경로 수정 화면으로 이동할 수 있습니다.  
-  처음에 나오는 달력을 통해 방문지가 저장된 날짜를 확인할 수 있고, 해당 날짜를 선택하여 이동경로 및 방문지를 수정할 수 있습니다.  
-  방문지를 선택하면 방문지 이름 수정, 방문지 삭제, 주변 방문지 검색 기능을 사용할 수 있습니다.  
-  이동 경로를 선택하면 화면 하단에서 방문지들을 순서대로 확인할 수 있고, 추천 경로 설정 기능을 통해 이동 경로를 바꿀 수 있습니다.  
+  상점에서 구매 가능한 신발 장식을 확인할 수 있고, 신상품 및 모든 상품 카테고리로 나누어져 있습니다.
 
-  <img width="600px;" src="https://github.com/Vecto-Konkuk/spring-backend/assets/127181634/f4cb2759-1f8b-4eec-a246-fbaa6c5d3a14"/>  
-  <img width="600px;" src="https://github.com/Vecto-Konkuk/spring-backend/assets/127181634/67bea202-bfaf-4f2c-bb58-82353389f27a"/>  
-  <img width="600px;" src="https://github.com/Vecto-Konkuk/spring-backend/assets/127181634/aa1ca2c5-1441-4833-af1a-b3467294bda6"/>  
+  <img width="600px;" src="https://github.com/hyeokson/Shoe-We-Walk/assets/127181634/d5e55e61-3f36-40e0-bcae-d5a70acea632"/>  
+  <img width="600px;" src="https://github.com/hyeokson/Shoe-We-Walk/assets/127181634/2ea7e572-b204-466b-9a35-a17863278c84"/>  
 
-- **마이페이지 화면**
 
-  바텀 네비게이션의 마이페이지 아이콘 선택을 통해 마이페이지로 이동할 수 있습니다.  
+- **프로필 화면**
+
+  프로필 화면에서는 사용자의 기본 정보와 누적 운동 그래프를 확인할 수 있습니다.
   
-  <img width="600px;" src="https://github.com/Vecto-Konkuk/spring-backend/assets/127181634/eeabf54b-025e-45a4-af5e-03174c42df9c"/>
+  <img width="600px;" src="https://github.com/hyeokson/Shoe-We-Walk/assets/127181634/56e75dc4-163d-44ab-899f-ba07740a2ddf"/>  
 
-- **로그인 및 회원가입 화면**
 
-  VECTO 전용 계정 또는 카카오 계정으로 로그인할 수 있습니다.  
-  VECTO 전용 계정으로 로그인하려면 회원가입을 진행해야 합니다.
+- **운동 측정 화면**
 
-  <img width="600px;" src="https://github.com/Vecto-Konkuk/spring-backend/assets/127181634/04d217da-31ef-4cea-96bb-ccba186715ae"/>  
-  <img width="600px;" src="https://github.com/Vecto-Konkuk/spring-backend/assets/127181634/56d6647a-da92-4258-b93c-080fc3bc83cf"/>
+  메인 화면에서 "START" 버튼을 누르면 GPS와 지도를 통해 운동을 측정합니다.
+  유저는 지도를 통해 사용자의 실시간 위치 정보와 걸음수, 이동 경로를 확인할 수 있습니다.
+  운동 종료 버튼을 누르면 운동 시간, 운동 거리, 소모된 칼로리, 획득한 재화 정보를 확인할 수 있고 저장 버튼을 누르면 운동 기록이 저장됩니다.
 
-- **알림 화면**
+  <img width="600px;" src="https://github.com/hyeokson/Shoe-We-Walk/assets/127181634/9fd73d62-ccee-42f0-9738-1e77070fd56b"/>  
+  <img width="600px;" src="https://github.com/hyeokson/Shoe-We-Walk/assets/127181634/d7a004e8-a874-4ba1-90f4-c652068e7816"/>
 
-  다른 유저가 자신의 게시글에 댓글을 달거나 팔로우를 할 경우, 알림을 확인할 수 있습니다.
-
-  <img width="600px;" src="https://github.com/Vecto-Konkuk/spring-backend/assets/127181634/4845b861-2278-4c8e-a7a6-6fc14beb1964"/>
-
-- **댓글 화면**
-
-  게시글에 댓글을 작성할 수 있고, 댓글에 좋아요를 누를 수 있습니다.
-
-  <img width="600px;" src="https://github.com/Vecto-Konkuk/spring-backend/assets/127181634/a8dfb449-1f87-4aa7-8b7c-9815a45d152f"/>
-
-- **유저 프로필 화면**  
-
-  해당 화면에서 유저를 팔로우할 수 있고 유저의 상세 정보들을 확인할 수 있습니다.
-  유저의 부적절한 행동을 발견할 경우, 해당 유저를 신고할 수도 있습니다.
-
-  <img width="600px;" src="https://github.com/Vecto-Konkuk/spring-backend/assets/127181634/ca9eb3a9-c9e3-4888-8e88-ff0349605198"/>  
-  <img width="600px;" src="https://github.com/Vecto-Konkuk/spring-backend/assets/127181634/3b84173f-f85c-4146-ae17-9e93d57eab74"/>  
 
 </br>
 
 ## 💻 Server
-- **[Server API(Swagger)](https://vec-to.net/swagger-ui/index.html)**
   
-- **로그인 및 인증 기능**  
+- **로그인 및 회원가입**  
   애플리케이션을 위한 Restful API 서버를 개발해야하기 때문에 세션, 쿠키가 필요없는 JWT 인증방식을 사용했습니다.  
   그리고 인증 방식을 쉽고 안전하게 구현하기 위해서 Spring Security를 사용하여 인증체계를 구축했습니다.  
   Username and Password Authentication Mechanism 을 사용하지 않으므로 JwtAuthenticationFilter를 따로 만들어서 JWT를 인증할 수 있도록 개발했습니다.  
   로그인을 하게 되면 프론트에 JWT를 반환하고 그 후의 request에서 header에 JWT를 넣으면 서버의 여러 기능들을 사용할 수 있습니다.  
 
-- **게시글 및 댓글 기능**  
+- **유저 정보 기능**  
   FeedController를 통해서 게시글과 댓글의 CRUD 기능을 구현했습니다.  
   애플리케이션의 게시글 탐색 화면에서 게시글을 조회할 때는 Paging을 사용하여 DB에서 정보를 가져왔고, 로그인 상태와 비로그인 상태를 구별해서 게시글 정보를 반환하도록 구현했습니다.  
   로그인 상태에서는 팔로우를 한 유저의 게시글을 조회하고 나서 팔로우를 하지 않은 유저의 게시글을 조회할 수 있습니다.  
@@ -186,17 +171,23 @@ GPS를 통해 유저의 운동경로를 지도상에 표시하여 운동 경로�
 
 ## 💾 ERD  
 
-- **유저 정보 테이블을 중심으로 한 ERD**
+- **유저 정보, 신발 장식, 운동 기록 테이블 ERD**
   
-<img width="600px;" src="https://github.com/hyeokson/spring-backend/assets/127181634/4d5c36f3-19c6-4526-874c-941c3b704ea7"/>
+<img width="600px;" src="https://github.com/hyeokson/Shoe-We-Walk/assets/127181634/02e38aaa-d190-4ef3-b960-2105a53cac2c"/>  
 
-- **팔로우 테이블 ERD**
+유저 테이블(user_table)에는 이름, 성별, 나이, 키, 몸무게, 소유한 총 신발 장식 개수, 잔고 데이터가 있습니다.  
+운동 기록 테이블(work_table)에는 운동을 시작한 날짜, 총 걸음 수, 총 이동 거리, 소모한 칼로리 데이터가 있습니다.  
+신발 장식 테이블(item_table)에는 신발 장식 Id, 소유한 신발 장식 수, 가격 데이터가 있습니다.  
 
-  <img width="600px;" src="https://github.com/hyeokson/spring-backend/assets/127181634/5ff787c2-880e-484d-ad5a-625b969c105a"/>
+유저 테이블과 나머지 두 테이블은 각각 1:N 관계에 있고, 운동을 한 적이 없다면 work_table에 데이터가 없을 수 있습니다.
 
-- **게시글 테이블을 중심으로 한 ERD**
-  
-  <img width="600px;" src="https://github.com/hyeokson/spring-backend/assets/127181634/0364f80c-299f-4d84-ae3a-cd1c455693b9"/>
-  <img width="600px;" src="https://github.com/hyeokson/spring-backend/assets/127181634/c4dafeb5-9a3b-4ffc-866a-1ad79ed9eb5b"/>
-  <img width="600px;" src="https://github.com/hyeokson/spring-backend/assets/127181634/537b1476-81d6-4e19-89b5-b6da0df35544"/>
-  <img width="400px;" src="https://github.com/hyeokson/spring-backend/assets/127181634/826bc286-0ca6-4ec3-b1e1-ed15b4ef9ff3"/>
+
+
+- **신발 장식 위치 ERD**
+
+  <img width="600px;" src="https://github.com/hyeokson/Shoe-We-Walk/assets/127181634/fc71934b-c58e-410e-bdf5-06d59cc1f456"/>
+
+  신발 장식 위치 테이블(itemloc_table)은 유저가 소유한 신발의 10개의 구멍에 어떤 신발 장식이 들어가 있는지를 관리합니다.
+  각각의 구멍에 해당하는 신발 장식의 item_id를 저장합니다.
+
+  각 유저마다 신발을 소유하고 있으므로 두 테이블은 1:1 관계에 있습니다. 
