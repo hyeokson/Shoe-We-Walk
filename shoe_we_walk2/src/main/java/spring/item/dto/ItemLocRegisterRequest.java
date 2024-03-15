@@ -1,4 +1,4 @@
-package spring;
+package spring.item.dto;
 
 public class ItemLocRegisterRequest {
 	private long user_id;

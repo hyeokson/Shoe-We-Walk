@@ -1,4 +1,4 @@
-package spring;
+package spring.item.dto;
 
 public class Item {
 	private long user_id;

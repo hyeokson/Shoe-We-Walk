@@ -1,4 +1,4 @@
-package spring;
+package spring.item.repository;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -12,8 +12,12 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.PreparedStatementCreator;
 import org.springframework.jdbc.core.RowMapper;
 
-public class ItemLocDao {
+public class ItemLocRepository {
 	private JdbcTemplate jdbcTemplate;
+
+	public ItemLocRepository(DataSource dataSource) {
+		this.jdbcTemplate = new JdbcTemplate(dataSource);
+	}
 	
 	private RowMapper<ItemLoc> itemRowMapper = 
 			new RowMapper<ItemLoc>() {
@@ -35,9 +39,7 @@ public class ItemLocDao {
 				}
 			};
 			
-	public ItemLocDao(DataSource dataSource) {
-		this.jdbcTemplate = new JdbcTemplate(dataSource);
-	}
+
 	
 	public void insert(ItemLoc itemloc) {
 		jdbcTemplate.update(new PreparedStatementCreator() {

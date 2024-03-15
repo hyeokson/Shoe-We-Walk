@@ -1,4 +1,4 @@
-package spring;
+package spring.common;
 
 public class MessageResponse {
 	private String message;

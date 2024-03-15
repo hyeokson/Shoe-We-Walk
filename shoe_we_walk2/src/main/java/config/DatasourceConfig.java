@@ -11,7 +11,7 @@ import spring.ItemLocDao;
 import spring.Service;
 
 @Configuration
-public class MemberConfig {
+public class DatasourceConfig {
 	@Bean(destroyMethod = "close")
 	public DataSource dataSource() {
 		DataSource ds = new DataSource();
@@ -25,31 +25,6 @@ public class MemberConfig {
 		ds.setMinEvictableIdleTimeMillis(60000 * 3);
 		ds.setTimeBetweenEvictionRunsMillis(10 * 1000);
 		return ds;
-	}
-
-	@Bean
-	public UserDao userDao() {
-		return new UserDao(dataSource());
-	}
-	
-	@Bean
-	public ItemDao itemDao() {
-		return new ItemDao(dataSource());
-	}
-	
-	@Bean
-	public WorkDao workDao() {
-		return new WorkDao(dataSource());
-	}
-	
-	@Bean
-	public ItemLocDao itemLocDao() {
-		return new ItemLocDao(dataSource());
-	}
-
-	@Bean
-	public Service service() {
-		return new Service(userDao(), workDao(), itemDao(), itemLocDao());
 	}
 
 }

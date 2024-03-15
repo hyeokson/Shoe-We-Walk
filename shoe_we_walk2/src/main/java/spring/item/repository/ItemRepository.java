@@ -1,4 +1,4 @@
-package spring;
+package spring.item.repository;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -15,8 +15,13 @@ import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.support.GeneratedKeyHolder;
 import org.springframework.jdbc.support.KeyHolder;
 
-public class ItemDao {
+@Repository
+public class ItemRepository {
 	private JdbcTemplate jdbcTemplate;
+
+	public ItemRepository(DataSource dataSource) {
+		this.jdbcTemplate = new JdbcTemplate(dataSource);
+	}
 	
 	private RowMapper<Item> itemRowMapper = 
 			new RowMapper<Item>() {
@@ -30,10 +35,6 @@ public class ItemDao {
 					return item;
 				}
 			};
-			
-	public ItemDao(DataSource dataSource) {
-		this.jdbcTemplate = new JdbcTemplate(dataSource);
-	}
 	
 	public void insert(Item item) {
 		jdbcTemplate.update(new PreparedStatementCreator() {

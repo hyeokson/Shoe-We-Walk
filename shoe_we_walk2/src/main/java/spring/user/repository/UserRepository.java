@@ -1,4 +1,4 @@
-package spring;
+package spring.user.repository;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -14,8 +14,14 @@ import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.support.GeneratedKeyHolder;
 import org.springframework.jdbc.support.KeyHolder;
 
-public class UserDao {
-private JdbcTemplate jdbcTemplate;
+@Repository
+public class UserRepository {
+
+	private final JdbcTemplate jdbcTemplate;
+
+	public UserRepository(DataSource dataSource) {
+		this.jdbcTemplate = new JdbcTemplate(dataSource);
+	}
 	
 	private RowMapper<User> userRowMapper = 
 			new RowMapper<User>() {
@@ -32,13 +38,7 @@ private JdbcTemplate jdbcTemplate;
 					rs.getInt("balance"));
 			return user;
 		}
-	};	
-
-		
-		
-	public UserDao(DataSource dataSource) {
-		this.jdbcTemplate = new JdbcTemplate(dataSource);
-	}
+	};
 	
 	public void insert(User user) {
 		jdbcTemplate.update(new PreparedStatementCreator() {

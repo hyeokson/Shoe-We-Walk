@@ -1,4 +1,4 @@
-package spring;
+package spring.work.repository;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -17,8 +17,12 @@ import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.support.GeneratedKeyHolder;
 import org.springframework.jdbc.support.KeyHolder;
 
-public class WorkDao {
+public class WorkRepository {
 	private JdbcTemplate jdbcTemplate;
+
+	public WorkRepository(DataSource dataSource) {
+		this.jdbcTemplate = new JdbcTemplate(dataSource);
+	}
 	
 	private RowMapper<Work> workRowMapper = 
 			new RowMapper<Work>() {
@@ -34,11 +38,7 @@ public class WorkDao {
 					return work;
 				}
 			};
-			
-	public WorkDao(DataSource dataSource) {
-		this.jdbcTemplate = new JdbcTemplate(dataSource);
-	}
-	
+
 	public void insert(WorkRegisterRequest work) {
 		jdbcTemplate.update(new PreparedStatementCreator() {
 			@Override

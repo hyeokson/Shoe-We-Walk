@@ -1,4 +1,4 @@
-package spring;
+package spring.user.dto;
 
 
 public class User {

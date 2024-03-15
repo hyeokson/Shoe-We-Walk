@@ -1,4 +1,4 @@
-package spring;
+package spring.work.dto;
 
 import java.time.LocalDateTime;
 
