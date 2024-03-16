@@ -1,6 +1,6 @@
-<img width="200px;" src="https://github.com/hyeokson/Shoe-We-Walk/assets/127181634/4c30b48e-30af-466a-b159-f118c89930b8"/>
+<p align="middle" >
+  <img width="200px;" src="https://github.com/hyeokson/Shoe-We-Walk/assets/127181634/4c30b48e-30af-466a-b159-f118c89930b8"/>
 </p>
-
 <h1 align="middle">Shoe We Walk</h1>
 <h3 align="middle">걷기 운동 서비스 App</h3>
 <br/>
